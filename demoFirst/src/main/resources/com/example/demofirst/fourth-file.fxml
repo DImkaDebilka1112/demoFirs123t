@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="addTheardNumber" prefHeight="628.0" prefWidth="683.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demofirst.FourthController">
+   <children>
+      <AnchorPane layoutY="-2.0" prefHeight="135.0" prefWidth="683.0" style="-fx-background-color: #;">
+         <children>
+            <Label layoutY="3.0" prefHeight="118.0" prefWidth="683.0" style="-fx-background-color: Orange;" text="            Список контактов" textFill="#2200ff">
+               <font>
+                  <Font name="Comic Sans MS" size="48.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="0.45" contrast="0.82" saturation="1.0" />
+               </effect>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="addFirstNumber" layoutX="42.0" layoutY="176.0" prefHeight="24.0" prefWidth="641.0" />
+      <Label layoutY="117.0" prefHeight="51.0" prefWidth="683.0" style="-fx-background-color: Orange;" text="                     Номера телефонов" textFill="#2200ff">
+         <font>
+            <Font name="Comic Sans MS" size="31.0" />
+         </font>
+         <effect>
+            <ColorAdjust brightness="0.45" contrast="0.82" saturation="1.0" />
+         </effect>
+      </Label>
+      <TextField fx:id="addSecondNumber" layoutX="42.0" layoutY="209.0" prefHeight="24.0" prefWidth="641.0" />
+      <TextField layoutX="42.0" layoutY="243.0" prefHeight="24.0" prefWidth="641.0" />
+      <TextField fx:id="addFourthNumber" layoutX="42.0" layoutY="278.0" prefHeight="24.0" prefWidth="641.0" />
+      <TextField fx:id="addFifthNumber" layoutX="42.0" layoutY="314.0" prefHeight="24.0" prefWidth="641.0" />
+      <TextField fx:id="addfSixthNumber" layoutX="42.0" layoutY="353.0" prefHeight="24.0" prefWidth="641.0" />
+      <TextField fx:id="addSeventhNumber" layoutX="42.0" layoutY="386.0" prefHeight="24.0" prefWidth="641.0" />
+      <TextField fx:id="addEighthNumber" layoutX="42.0" layoutY="420.0" prefHeight="24.0" prefWidth="641.0" />
+      <TextField fx:id="addNinthNumber" layoutX="42.0" layoutY="452.0" prefHeight="24.0" prefWidth="641.0" />
+      <TextField fx:id="addTenthNumber" layoutX="42.0" layoutY="485.0" prefHeight="24.0" prefWidth="641.0" />
+      <TextField fx:id="addEleventhNumber" layoutX="42.0" layoutY="519.0" prefHeight="24.0" prefWidth="641.0" />
+      <TextField fx:id="addTwelfthNumber" layoutX="42.0" layoutY="550.0" prefHeight="24.0" prefWidth="641.0" />
+      <TextField fx:id="addThirteenthNumber" layoutX="42.0" layoutY="581.0" prefHeight="24.0" prefWidth="641.0" />
+      <Label layoutX="14.0" layoutY="177.0" prefHeight="17.0" prefWidth="28.0" text="  1">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="211.0" prefHeight="17.0" prefWidth="28.0" text="  2">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="244.0" prefHeight="17.0" prefWidth="28.0" text="  3">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="279.0" prefHeight="17.0" prefWidth="28.0" text="  4">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="315.0" prefHeight="17.0" prefWidth="28.0" text="  5">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="354.0" prefHeight="17.0" prefWidth="28.0" text="  6">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="387.0" prefHeight="17.0" prefWidth="28.0" text="  7">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="421.0" prefHeight="17.0" prefWidth="28.0" text="  8">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="453.0" prefHeight="17.0" prefWidth="28.0" text="  9">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="485.0" prefHeight="25.0" prefWidth="35.0" text="  10">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="520.0" prefHeight="17.0" prefWidth="28.0" text=" 11">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="551.0" prefHeight="17.0" prefWidth="28.0" text=" 12">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="582.0" prefHeight="17.0" prefWidth="28.0" text=" 13">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
